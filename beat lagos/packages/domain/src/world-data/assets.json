@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "defaults": {
+    "maxBytes": 300000,
+    "maxTriangles": 6000
+  },
+  "residentBudget": {
+    "maxBytes": 4000000,
+    "maxTriangles": 100000
+  },
+  "assets": [
+    {
+      "id": "facade_lecture_east",
+      "url": "/assets/props/facade_lecture_east.glb",
+      "slot": "building:lecture_east",
+      "zones": [
+        "academic_block"
+      ],
+      "maxBytes": 150000,
+      "maxTriangles": 1300,
+      "size": {
+        "w": 10.42,
+        "h": 3.6,
+        "d": 14.44
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "facade_lecture_west",
+      "url": "/assets/props/facade_lecture_west.glb",
+      "slot": "building:lecture_west",
+      "zones": [
+        "academic_block"
+      ],
+      "maxBytes": 150000,
+      "maxTriangles": 1300,
+      "size": {
+        "w": 10.42,
+        "h": 3.6,
+        "d": 14.44
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "facade_creator_studio",
+      "url": "/assets/props/facade_creator_studio.glb",
+      "slot": "building:creator_studio",
+      "zones": [
+        "creator_hub"
+      ],
+      "maxBytes": 133000,
+      "maxTriangles": 1200,
+      "size": {
+        "w": 14.42,
+        "h": 3.35,
+        "d": 12.44
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "facade_food_hall",
+      "url": "/assets/props/facade_food_hall.glb",
+      "slot": "building:food_hall",
+      "zones": [
+        "food_court"
+      ],
+      "maxBytes": 140000,
+      "maxTriangles": 1300,
+      "size": {
+        "w": 14.42,
+        "h": 3.75,
+        "d": 9.44
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "facade_hostel_a",
+      "url": "/assets/props/facade_hostel_a.glb",
+      "slot": "building:hostel_a",
+      "zones": [
+        "hostel_street"
+      ],
+      "maxBytes": 119000,
+      "maxTriangles": 1100,
+      "size": {
+        "w": 10.42,
+        "h": 3.5,
+        "d": 5.42
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "facade_hostel_b",
+      "url": "/assets/props/facade_hostel_b.glb",
+      "slot": "building:hostel_b",
+      "zones": [
+        "hostel_street"
+      ],
+      "maxBytes": 119000,
+      "maxTriangles": 1100,
+      "size": {
+        "w": 10.42,
+        "h": 3.5,
+        "d": 5.42
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "facade_library_hall",
+      "url": "/assets/props/facade_library_hall.glb",
+      "slot": "building:library_hall",
+      "zones": [
+        "library"
+      ],
+      "maxBytes": 197000,
+      "maxTriangles": 1800,
+      "size": {
+        "w": 20.42,
+        "h": 9.09,
+        "d": 14.44
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "palm_tree",
+      "url": "/assets/props/palm_tree.glb",
+      "slot": "prop:tree",
+      "zones": [
+        "creator_hub",
+        "food_court",
+        "hostel_street",
+        "library",
+        "student_commons"
+      ],
+      "maxBytes": 43000,
+      "maxTriangles": 400,
+      "size": {
+        "w": 2.94,
+        "h": 4.64,
+        "d": 2.86
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "bench",
+      "url": "/assets/props/bench.glb",
+      "slot": "prop:bench",
+      "zones": [
+        "student_commons"
+      ],
+      "maxBytes": 20000,
+      "maxTriangles": 200,
+      "size": {
+        "w": 3,
+        "h": 1.33,
+        "d": 0.98
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "library_shelf",
+      "url": "/assets/props/library_shelf.glb",
+      "slot": "prop:shelf",
+      "zones": [
+        "library"
+      ],
+      "maxBytes": 200000,
+      "maxTriangles": 1800,
+      "size": {
+        "w": 6,
+        "h": 2.2,
+        "d": 1.2
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "market_counter",
+      "url": "/assets/props/market_counter.glb",
+      "slot": "prop:counter",
+      "zones": [
+        "creator_hub",
+        "food_court"
+      ],
+      "maxBytes": 76000,
+      "maxTriangles": 700,
+      "size": {
+        "w": 10.2,
+        "h": 2.99,
+        "d": 2.27
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "gate_pillar",
+      "url": "/assets/props/gate_pillar.glb",
+      "slot": "prop:pillar",
+      "zones": [
+        "main_gate"
+      ],
+      "maxBytes": 22000,
+      "maxTriangles": 200,
+      "size": {
+        "w": 1.6,
+        "h": 4.26,
+        "d": 1.6
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "commons_fountain",
+      "url": "/assets/props/commons_fountain.glb",
+      "slot": "prop:fountain",
+      "zones": [
+        "student_commons"
+      ],
+      "maxBytes": 55000,
+      "maxTriangles": 500,
+      "size": {
+        "w": 3.6,
+        "h": 2.12,
+        "d": 3.6
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "event_stage",
+      "url": "/assets/props/event_stage.glb",
+      "slot": "prop:stage",
+      "zones": [
+        "event_arena"
+      ],
+      "maxBytes": 87000,
+      "maxTriangles": 800,
+      "size": {
+        "w": 14,
+        "h": 4.52,
+        "d": 4.55
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "lamp_post",
+      "url": "/assets/props/lamp_post.glb",
+      "slot": "decor:lamp_post",
+      "zones": [
+        "academic_block",
+        "event_arena",
+        "food_court",
+        "hostel_street",
+        "main_gate",
+        "student_commons"
+      ],
+      "maxBytes": 16000,
+      "maxTriangles": 200,
+      "size": {
+        "w": 0.95,
+        "h": 3.13,
+        "d": 0.44
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "hedge_row",
+      "url": "/assets/props/hedge_row.glb",
+      "slot": "decor:hedge_row",
+      "zones": [
+        "main_gate",
+        "student_commons"
+      ],
+      "maxBytes": 59000,
+      "maxTriangles": 500,
+      "size": {
+        "w": 4.23,
+        "h": 1.07,
+        "d": 0.9
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "flower_bed",
+      "url": "/assets/props/flower_bed.glb",
+      "slot": "decor:flower_bed",
+      "zones": [
+        "creator_hub",
+        "food_court",
+        "library",
+        "student_commons"
+      ],
+      "maxBytes": 117000,
+      "maxTriangles": 1100,
+      "size": {
+        "w": 2.6,
+        "h": 0.89,
+        "d": 2.6
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "umbrella_table",
+      "url": "/assets/props/umbrella_table.glb",
+      "slot": "decor:umbrella_table",
+      "zones": [
+        "food_court",
+        "student_commons"
+      ],
+      "maxBytes": 39000,
+      "maxTriangles": 400,
+      "size": {
+        "w": 3.1,
+        "h": 2.67,
+        "d": 3.1
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "goal_post",
+      "url": "/assets/props/goal_post.glb",
+      "slot": "decor:goal_post",
+      "zones": [
+        "sports_ground"
+      ],
+      "maxBytes": 24000,
+      "maxTriangles": 200,
+      "size": {
+        "w": 7.46,
+        "h": 2.48,
+        "d": 1.91
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "shrub",
+      "url": "/assets/props/shrub.glb",
+      "slot": "decor:shrub",
+      "zones": [
+        "academic_block",
+        "creator_hub",
+        "food_court",
+        "hostel_street",
+        "library"
+      ],
+      "maxBytes": 32000,
+      "maxTriangles": 300,
+      "size": {
+        "w": 1.53,
+        "h": 0.94,
+        "d": 0.98
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "signboard",
+      "url": "/assets/props/signboard.glb",
+      "slot": "decor:signboard",
+      "zones": [
+        "academic_block",
+        "creator_hub",
+        "food_court",
+        "library"
+      ],
+      "maxBytes": 17000,
+      "maxTriangles": 200,
+      "size": {
+        "w": 2,
+        "h": 1.83,
+        "d": 0.17
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "gate_arch",
+      "url": "/assets/props/gate_arch.glb",
+      "slot": "decor:gate_arch",
+      "zones": [
+        "main_gate"
+      ],
+      "maxBytes": 207000,
+      "maxTriangles": 1900,
+      "size": {
+        "w": 13.6,
+        "h": 5.78,
+        "d": 0.9
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "banner_pole",
+      "url": "/assets/props/banner_pole.glb",
+      "slot": "decor:banner_pole",
+      "zones": [
+        "academic_block",
+        "student_commons"
+      ],
+      "maxBytes": 46000,
+      "maxTriangles": 400,
+      "size": {
+        "w": 0.9,
+        "h": 3.89,
+        "d": 0.36
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "palm_royal",
+      "url": "/assets/props/palm_royal.glb",
+      "slot": "decor:palm_royal",
+      "zones": [
+        "academic_block",
+        "creator_hub",
+        "event_arena",
+        "food_court",
+        "hostel_street",
+        "sports_ground",
+        "student_commons"
+      ],
+      "maxBytes": 43000,
+      "maxTriangles": 400,
+      "size": {
+        "w": 2.94,
+        "h": 4.64,
+        "d": 2.86
+      },
+      "yOffset": 0
+    },
+    {
+      "id": "plaza_paving",
+      "url": "/assets/props/plaza_paving.glb",
+      "slot": "decor:plaza_paving",
+      "zones": [
+        "student_commons"
+      ],
+      "maxBytes": 104000,
+      "maxTriangles": 900,
+      "size": {
+        "w": 17.6,
+        "h": 0.05,
+        "d": 12.8
+      },
+      "yOffset": 0.12
+    }
+  ]
+}

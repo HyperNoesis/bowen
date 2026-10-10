@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "main_gate",
+  "name": "Main Gate",
+  "rect": {
+    "x": 50,
+    "y": 70,
+    "w": 20,
+    "h": 10
+  },
+  "color": "#2f6bff",
+  "ambientAudio": "street",
+  "spawnPoints": [
+    {
+      "id": "default",
+      "x": 60,
+      "y": 74,
+      "default": true
+    }
+  ],
+  "buildings": [],
+  "props": [
+    {
+      "kind": "pillar",
+      "x": 52,
+      "y": 71,
+      "w": 1.4,
+      "h": 1.4
+    },
+    {
+      "kind": "pillar",
+      "x": 66.6,
+      "y": 71,
+      "w": 1.4,
+      "h": 1.4
+    }
+  ],
+  "interactionPoints": [
+    {
+      "id": "gate_notice",
+      "name": "Welcome Notice",
+      "x": 60,
+      "y": 69,
+      "activity": null
+    }
+  ],
+  "npcs": [
+    {
+      "id": "npc_guard",
+      "name": "Mr. Bello",
+      "outfit": "#1b2540",
+      "skin": "#8a5a3b",
+      "speed": 1.4,
+      "pauseMs": 4000,
+      "path": [
+        {
+          "x": 56,
+          "y": 74
+        },
+        {
+          "x": 64,
+          "y": 74
+        }
+      ]
+    }
+  ],
+  "decor": [
+    {
+      "model": "lamp_post",
+      "x": 56.3,
+      "y": 72
+    },
+    {
+      "model": "lamp_post",
+      "x": 63.7,
+      "y": 72,
+      "rot": 3.14
+    },
+    {
+      "model": "hedge_row",
+      "x": 50,
+      "y": 76.8
+    },
+    {
+      "model": "hedge_row",
+      "x": 70,
+      "y": 76.8
+    },
+    {
+      "model": "gate_arch",
+      "x": 60,
+      "y": 71.7
+    }
+  ]
+}

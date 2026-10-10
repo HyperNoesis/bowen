@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "academic_block",
+  "name": "Academic Block",
+  "rect": {
+    "x": 45,
+    "y": 4,
+    "w": 30,
+    "h": 22
+  },
+  "color": "#7a8cff",
+  "ambientAudio": "quiet",
+  "spawnPoints": [],
+  "buildings": [
+    {
+      "id": "lecture_east",
+      "name": "Lecture Hall",
+      "x": 47,
+      "y": 6,
+      "w": 10,
+      "h": 14,
+      "door": {
+        "x": 50,
+        "w": 4
+      },
+      "color": "#7a8cff",
+      "height": 2.6
+    },
+    {
+      "id": "lecture_west",
+      "name": "Science Block",
+      "x": 63,
+      "y": 6,
+      "w": 10,
+      "h": 14,
+      "door": {
+        "x": 66,
+        "w": 4
+      },
+      "color": "#5f74e8",
+      "height": 2.6
+    }
+  ],
+  "props": [],
+  "interactionPoints": [],
+  "npcs": [],
+  "decor": [
+    {
+      "model": "lamp_post",
+      "x": 56.3,
+      "y": 24
+    },
+    {
+      "model": "lamp_post",
+      "x": 63.7,
+      "y": 24,
+      "rot": 3.14
+    },
+    {
+      "model": "lamp_post",
+      "x": 56.3,
+      "y": 32
+    },
+    {
+      "model": "lamp_post",
+      "x": 63.7,
+      "y": 32,
+      "rot": 3.14
+    },
+    {
+      "model": "lamp_post",
+      "x": 50,
+      "y": 34
+    },
+    {
+      "model": "lamp_post",
+      "x": 70,
+      "y": 34
+    },
+    {
+      "model": "shrub",
+      "x": 46.1,
+      "y": 20.5
+    },
+    {
+      "model": "shrub",
+      "x": 57.9,
+      "y": 20.5
+    },
+    {
+      "model": "signboard",
+      "x": 55.8,
+      "y": 21.1
+    },
+    {
+      "model": "shrub",
+      "x": 62.1,
+      "y": 20.5
+    },
+    {
+      "model": "shrub",
+      "x": 73.9,
+      "y": 20.5
+    },
+    {
+      "model": "signboard",
+      "x": 71.8,
+      "y": 21.1
+    },
+    {
+      "model": "banner_pole",
+      "x": 55.3,
+      "y": 30,
+      "rot": 0.35
+    },
+    {
+      "model": "banner_pole",
+      "x": 64.7,
+      "y": 30,
+      "rot": -0.35
+    },
+    {
+      "model": "palm_royal",
+      "x": 53.6,
+      "y": 29
+    },
+    {
+      "model": "palm_royal",
+      "x": 66.4,
+      "y": 27
+    },
+    {
+      "model": "palm_royal",
+      "x": 44,
+      "y": 8,
+      "scale": 1.05
+    },
+    {
+      "model": "palm_royal",
+      "x": 76,
+      "y": 8,
+      "scale": 1.05
+    }
+  ]
+}
